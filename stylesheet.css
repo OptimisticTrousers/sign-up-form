@@ -36,7 +36,7 @@ time, mark, audio, video {
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     background-color: white;
     padding: 1rem 3rem;
     height:auto;
@@ -52,13 +52,17 @@ time, mark, audio, video {
 
 .right-panel{
     display: flex;
-    align-items: stretch;
+    align-items: center;
 }
 div .right-panel{
-    background-color: blue;
+    padding: 1rem 2rem;
+    background-color: #A7E8BD;
 }
 
 img{
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: px 4px #CBFAB2;
     background-color: black;
 }
 form{
@@ -85,7 +89,6 @@ fieldset > input{
     font-size: 16px;
 }
 button[type="submit"]{
-    margin: 1rem 0;
     padding: 1rem 3rem;
     border-radius: 6px;
     background-color: #ABFAA9;
@@ -110,7 +113,7 @@ h2{
     width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     justify-content: start;
 }
 
