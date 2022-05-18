@@ -29,9 +29,34 @@ time, mark, audio, video {
 }
 .container{
     display: flex;
+    justify-content: space-between;
     background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 6px;
+    box-shadow: 10px 20px rgba(0, 0, 0, 0.10);
+}
+.left-panel{
+    display:flex;
+    flex-direction: column;
 }
 
 img{
     background-color: black;
+}
+fieldset{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+fieldset > input{
+    width: 400px;
+}
+button[type="submit"]{
+    margin: 1rem 0;
+    padding: 1rem 3rem;
+    border: 6px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
