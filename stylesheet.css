@@ -39,7 +39,6 @@ time, mark, audio, video {
     align-items: stretch;
     background-color: white;
     padding: 1rem 3rem;
-    height:auto;
     border-radius: 6px;
     border: 1px solid black;
     box-shadow: 10px 20px rgba(0, 0, 0, 0.10);
