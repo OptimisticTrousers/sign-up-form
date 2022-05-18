@@ -38,7 +38,7 @@ time, mark, audio, video {
     justify-content: center;
     align-items: stretch;
     background-color: white;
-    padding: 1rem 3rem;
+    padding: 1rem clamp(1rem, 5%, 3rem);
     border-radius: 6px;
     border: 1px solid black;
     box-shadow: 10px 20px rgba(0, 0, 0, 0.10);
@@ -137,4 +137,25 @@ a{
 }
 .right-panel > a{
     text-decoration-color: black;
+}
+
+@media only screen and (max-width: 1080px){
+    .right-panel{
+        display:none;
+    }
+    h2{
+        display: none;
+    }
+    .container{
+        padding: 0.5rem 1.5rem;
+        margin: 5%;
+        padding: 5%;
+        width: calc(vw / 2);
+        height: calc(vh / 2);
+    }
+    fieldset > label{
+        font-size: 20px;
+    }
+
+
 }

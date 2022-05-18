@@ -22,31 +22,31 @@
                           <label for="first-name">
                               FIRST NAME:
                           </label>
-                          <input type="text" name="last-name" id="last-name">
+                          <input type="text" name="last-name" id="last-name" required>
                           <label for="last-name">
                               LAST NAME:
                           </label>
-                          <input type="text" name="last-name" id="last-name">
+                          <input type="text" name="last-name" id="last-name" required>
                       </fieldset>
                       <fieldset class="section-2">
                           <label for="first-name">
                               EMAIL:
                           </label>
-                          <input type="tel" name="phone" id="phone">
+                          <input type="tel" name="phone" id="phone" title="Please enter a valid email address: optimistic@email.com"placeholder="optimistic@email.com" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                           <label for="phone-number">
                               PHONE NUMBER:
                           </label>
-                          <input type="email" name="email" id="email">
+                          <input type="email" name="email" id="email" title="Please enter a valid phone number: 111-222-3333" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="111-222-3333" required>
                       </fieldset>
                       <fieldset class="section-3">
                           <label for="password">
                               PASSWORD:
                           </label>
-                          <input type="password" name="password" id="password">
+                          <input type="password" name="password" id="password" required>
                           <label for="confirm-password">
                               CONFIRM PASSWORD:
                           </label>
-                          <input type="password" name="confirm-password" id="confirm-password">
+                          <input type="password" name="confirm-password" id="confirm-password" required>
                       </fieldset>
                       <button type="submit">Create Account</button>
                       <h3>Already have an account? <a>Log in</a></h3>
