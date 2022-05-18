@@ -39,7 +39,9 @@ time, mark, audio, video {
     align-items: center;
     background-color: white;
     padding: 1rem 3rem;
+    height:auto;
     border-radius: 6px;
+    border: 1px solid black;
     box-shadow: 10px 20px rgba(0, 0, 0, 0.10);
 }
 .left-panel{
@@ -52,9 +54,19 @@ time, mark, audio, video {
     display: flex;
     align-items: stretch;
 }
+div .right-panel{
+    background-color: blue;
+}
 
 img{
     background-color: black;
+}
+form{
+    border-radius: 6px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid black;
+    box-shadow: 3px 8px rgba(0, 0, 0, 0.10);
 }
 fieldset{
     margin: 1rem 0;
@@ -70,6 +82,7 @@ fieldset > input{
     border-radius: 6px;
     padding: 10px;
     width: 400px;
+    font-size: 16px;
 }
 button[type="submit"]{
     margin: 1rem 0;
@@ -97,7 +110,7 @@ h2{
     width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     justify-content: start;
 }
 
