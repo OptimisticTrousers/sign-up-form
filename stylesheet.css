@@ -18,3 +18,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --viewport-height: 100vh;
+    background-color:#3C91E6;
+    height: var(--viewport-height);
+}
+.container{
+    display: flex;
+    background-color: white;
+}
+
+img{
+    background-color: black;
+}
