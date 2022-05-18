@@ -52,7 +52,9 @@ time, mark, audio, video {
 
 .right-panel{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 div .right-panel{
     padding: 1rem 2rem;
@@ -87,6 +89,10 @@ fieldset > input{
     padding: 10px;
     width: 400px;
     font-size: 16px;
+    background-color: #A7E8BD;
+}
+fieldset > input:focus{
+    background-color: white;
 }
 button[type="submit"]{
     padding: 1rem 3rem;
@@ -129,4 +135,7 @@ a{
     text-decoration-thickness: 4px;
     text-decoration-color: #A7E8BD;
     cursor: pointer;
+}
+.right-panel > a{
+    text-decoration-color: black;
 }
