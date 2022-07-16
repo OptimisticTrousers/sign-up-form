@@ -34,8 +34,8 @@ body {
 }
 
 .background{
+    width: 100vw;
     height: 100vh;
-    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,5 +197,11 @@ footer{
     }
     button[type="submit"] {
         padding: 0.5rem 1rem;
+    }
+    footer{
+        display: none;
+    }
+    html{
+        background-color: #3C91E6;
     }
 }
